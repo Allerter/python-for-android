@@ -136,6 +136,9 @@
     {% for a in args.add_activity  %}
     <activity android:name="{{ a }}"></activity>
     {% endfor %}
+    <activity
+      android:name="com.spotify.sdk.android.authentication.LoginActivity"
+      android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>
