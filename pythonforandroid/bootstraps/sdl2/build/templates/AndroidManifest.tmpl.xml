@@ -139,6 +139,9 @@
     <activity
       android:name="com.spotify.sdk.android.authentication.LoginActivity"
       android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity
+      android:name="com.genius.sdk.android.authentication.LoginActivity"
+      android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>
